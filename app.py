@@ -30,7 +30,7 @@ if st.button("🚀 开始智能批改", type="primary"):
         
         try:
             # 直接指定 Flash 模型
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('gemini-pro')
             
             prompt = f"""
             你是一位无锡初中英语教师。请批改以下作文。
